@@ -59,7 +59,7 @@ class Matrix:
             return None
         return [self.data[i][i] for i in range(self.rows)]
 
-# Example usage
+# Приклад використання
 matrix = Matrix(2, 3)
 print(matrix.data)  # [[0, 0, 0], [0, 0, 0]]
 
